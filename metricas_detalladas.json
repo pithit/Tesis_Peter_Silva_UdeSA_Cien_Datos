@@ -1,0 +1,1673 @@
+{
+  "metadata": {
+    "k": 3,
+    "fecha_calculo": "2025-07-31T01:58:14.707468",
+    "total_consultas": 50
+  },
+  "metricas_por_consulta": [
+    {
+      "consulta_id": 1,
+      "consulta_texto": "Busco un dispositivo que sea elegante, moderno y fácil de llevar a todos lados, ideal para un profesional ocupado.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.7967,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Estación de Carga para IQOS 3 DUO",
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS 3 DUO",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 2,
+      "consulta_texto": "Quiero probar los sabores de tabaco más intensos y robustos que tengan.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.9386,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Turquoise Selection",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS VEEV Sistema de vapeo con cápsulas prellenadas, sabor intenso y experiencia sin humo.",
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9152,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "HEETS Sienna Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 3,
+      "consulta_texto": "Soy nuevo en esto y necesito el dispositivo más fácil de usar y que no requiera mucha limpieza.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "Estación de Carga para IQOS 3 DUO"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 4,
+      "consulta_texto": "Un accesorio útil y discreto para llevar mis sticks de tabaco cuando viajo.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "TEREA Sienna",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS 3 DUO",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "N/A",
+            "N/A"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 5,
+      "consulta_texto": "Recomiéndame un sabor de TEREA que sea suave y no muy fuerte.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.5,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 6,
+      "consulta_texto": "Busco un regalo premium para un amigo que ya usa IQOS.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "HEETS Amber Selection",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.659,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS ILUMA",
+            "IQOS ILUMA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 7,
+      "consulta_texto": "Necesito un cargador para mi escritorio, que se vea bien.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Estación de Carga para IQOS 3 DUO",
+            "TEREA Sienna",
+            "IQOS ILUMA ONE"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "N/A",
+            "N/A"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 8,
+      "consulta_texto": "El dispositivo más barato que tengas, para empezar.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.6697,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS Originals One",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "HEETS Sienna Selection",
+            "HEETS Amber Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 9,
+      "consulta_texto": "Diferencias entre HEETS y TEREA, ¿cuál me conviene si tengo un ILUMA?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA",
+            "HEETS (opción alternativa)",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "TEREA Turquoise"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 10,
+      "consulta_texto": "Algo con buena batería que me dure todo el día sin problemas.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS Originals One",
+            "IQOS 3 DUO",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "HEETS Amber Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 11,
+      "consulta_texto": "¿Cuál dispositivo IQOS es mejor para alguien que fuma mucho?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Turquoise Selection",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.5,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Dado que el usuario busca un dispositivo para alguien que fuma mucho, necesitamos un dispositivo que proporcione una experiencia de fumado satisfactoria y duradera.",
+            "Los productos TEREA y HEETS ofrecen diferentes intensidades de sabor, pero no necesariamente una mayor duración de uso.",
+            "IQOS ILUMA ONE"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 12,
+      "consulta_texto": "Busco sticks con sabor mentolado para mi ILUMA.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.5,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "TEREA Sienna",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "Consulte nuestros sticks mentolados compatibles con ILUMA en nuestra tienda.",
+            "ILUMA Prime (dispositivo premium que puede funcionar con sticks mentolados)",
+            "ILUMA (dispositivo original para explorar sticks mentolados)"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Turquoise",
+            "HEETS Turquoise Selection",
+            "(No se recomienda el tercer producto, ya que no cumple con la condición de tener sabor mentolado)"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 13,
+      "consulta_texto": "¿Qué accesorio es indispensable para un usuario nuevo?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One Su diseño todoenuno y la autonomía extendida hacen que sea una excelente opción para aquellos que desean un dispositivo fácil de usar y que no requiere mucho mantenimiento.",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 14,
+      "consulta_texto": "El dispositivo con mejor relación calidad-precio.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "No hay productos adicionales que se recomienden en este caso, ya que el usuario busca un dispositivo específico con la mejor relación calidadprecio.",
+            "N/A"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 15,
+      "consulta_texto": "Sabores TEREA vs HEETS: ¿cuál tiene mejor sabor?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS Originals One Diseño todoenuno y carga USBC, lo que lo hace ideal para uso diario y ofrece autonomía extendida.",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 16,
+      "consulta_texto": "Necesito algo que funcione bien en climas fríos.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Amber Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.8597,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS ILUMA",
+            "IQOS Originals One  La autonomía extendida y la carga USBC rápida lo hacen adecuado para climas fríos, y su diseño todoenuno es práctico y fácil de usar."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 17,
+      "consulta_texto": "¿Qué dispositivo recomiendan para uso ocasional?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS ILUMA",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 18,
+      "consulta_texto": "Busco el kit completo para empezar con IQOS.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6934,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "HEETS Amber Selection",
+            "IQOS ILUMA",
+            "IQOS ILUMA ONE"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.8212,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One  Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC.",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO",
+            "TEREA Sienna"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 19,
+      "consulta_texto": "¿Cuál es el dispositivo más silencioso?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One  Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "HEETS Sienna Selection",
+            "IQOS ILUMA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 20,
+      "consulta_texto": "Accesorios para mantener mi dispositivo como nuevo.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.6199,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.8821,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 21,
+      "consulta_texto": "¿Cuál es el dispositivo más versátil que refrescantes?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "TEREA Sienna",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.8212,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS VEEV",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "HEETS Turquoise Selection",
+            "HEETS Sienna Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 22,
+      "consulta_texto": "Me interesa un dispositivo moderno que no sea complicado.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Amber",
+            "TEREA Sienna"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9386,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "IQOS 3 DUO"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 23,
+      "consulta_texto": "Busco un dispositivo versátil y duradero, perfecto para uso frecuente.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.8212,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "HEETS Sienna Selection",
+            "IQOS 3 DUO",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 24,
+      "consulta_texto": "Necesito algo que sea moderno, funcional y que no requiera mantenimiento.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.9639,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection",
+            "Estación de Carga para IQOS 3 DUO"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9778,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO",
+            "IQOS ILUMA ONE"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 25,
+      "consulta_texto": "¿Cuál es el dispositivo más moderno que aromáticos?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Turquoise",
+            "HEETS Turquoise Selection",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.6934,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS VEEV",
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.5,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Turquoise",
+            "HEETS Turquoise Selection",
+            "IQOS ILUMA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 26,
+      "consulta_texto": "Soy viajero frecuente y busco algo simple y efectivo.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Amber Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.6934,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS Originals One",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "HEETS Sienna Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 27,
+      "consulta_texto": "Recomienda algo ideal para usuario casual que uso diario.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.659,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "Contenedor de Viaje para TEREA"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.648,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS Originals One Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC.",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS ILUMA ONE",
+            "IQOS ILUMA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 28,
+      "consulta_texto": "Como usuario casual, necesito algo que sea fácil de mantener.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.5,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Turquoise Selection",
+            "IQOS ILUMA ONE"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One Este producto ofrece una autonomía extendida y carga USBC, lo que lo hace conveniente para el uso diario. Su diseño todoenuno también lo hace fácil de usar y mantener."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO",
+            "TEREA Sienna"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 29,
+      "consulta_texto": "Como usuario experimentado, necesito algo que tenga buen rendimiento.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9778,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "HEETS Sienna Selection",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 30,
+      "consulta_texto": "Para alguien usuario que prioriza la practicidad, ¿qué stick recomendarían?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.9386,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "HEETS Turquoise Selection",
+            "TEREA Sienna"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.6934,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 31,
+      "consulta_texto": "Para alguien alguien que valora el diseño, ¿qué producto recomendarían?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Turquoise Selection",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 32,
+      "consulta_texto": "Como usuario que prioriza la practicidad, necesito algo que sea fácil de mantener.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.5,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "TEREA Sienna",
+            "Contenedor de Viaje para TEREA"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9778,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS 3 DUO",
+            "Contenedor de Viaje para TEREA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 33,
+      "consulta_texto": "Como principiante total, necesito algo que sea fácil de mantener.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "TEREA Sienna",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "HEETS Sienna Selection",
+            "TEREA Sienna"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 34,
+      "consulta_texto": "¿Cuál es la opción más de gama alta que no sea complicado?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 35,
+      "consulta_texto": "Opciones económica para ocasiones especiales.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "Funda de Cuero para IQOS ILUMA"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "TEREA Amber",
+            "TEREA Sienna"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 36,
+      "consulta_texto": "Opciones premium para actividades al aire libre.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "IQOS ILUMA ONE",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9778,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS 3 DUO",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "IQOS ILUMA",
+            "IQOS ILUMA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 37,
+      "consulta_texto": "El mejor dispositivo accesible del catálogo.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Estación de Carga para IQOS 3 DUO",
+            "HEETS Turquoise Selection",
+            "TEREA Sienna"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One Diseño todoenuno con carga USBC, perfecto para uso diario y con una autonomía extendida.",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "HEETS Amber Selection",
+            "No recomiendo un tercer producto, ya que la lista no incluye dispositivos IQOS propiamente dichos."
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 38,
+      "consulta_texto": "El mejor dispositivo premium del catálogo.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Funda de Cuero para IQOS ILUMA",
+            "HEETS Turquoise Selection",
+            "TEREA Sienna"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS ILUMA",
+            "IQOS 3 DUO"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 39,
+      "consulta_texto": "Recomienda TEREA con sabor robusto.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.905,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS VEEV",
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One (como opción más accesible con diseño todoenuno)"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "HEETS Sienna Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 40,
+      "consulta_texto": "Recomienda sticks con sabor tradicional.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "TEREA Sienna",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS VEEV",
+            "IQOS ILUMA",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9299,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 41,
+      "consulta_texto": "Busco sabores equilibrados y aromáticos.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.8213,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Turquoise",
+            "HEETS Sienna Selection",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS VEEV  Sistema de vapeo con cápsulas prellenadas, sabor intenso y experiencia sin humo.",
+            "IQOS ILUMA",
+            "IQOS ILUMA PRIME"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Sienna Selection",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 42,
+      "consulta_texto": "¿Qué sticks tiene intensidad media?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "Contenedor de Viaje para TEREA",
+            "TEREA Sienna"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One  Este producto tiene un diseño todoenuno y autonomía extendida, lo que puede indicar una experiencia de vapeo equilibrada.",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "HEETS Turquoise Selection",
+            "TEREA Amber"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 43,
+      "consulta_texto": "Sabores suaves para viajes largos.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.8597,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Amber",
+            "TEREA Sienna",
+            "Funda de Cuero para IQOS ILUMA"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS ILUMA",
+            "IQOS Originals One  Su diseño todoenuno y autonomía extendida lo hacen una excelente opción para viajes largos, y su carga USBC es fácil y conveniente."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "Contenedor de Viaje para TEREA",
+            "IQOS ILUMA ONE"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 44,
+      "consulta_texto": "¿Qué sticks tiene notas amaderadas?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.648,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "TEREA Amber",
+            "TEREA Sienna"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS VEEV  Sistema de vapeo con cápsulas prellenadas y sabor intenso que podría tener notas amaderadas.",
+            "IQOS Originals One  Diseño todoenuno ideal para el uso diario, que podría tener un sabor rico y complejo.",
+            "IQOS 3 DUO"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "HEETS Sienna Selection",
+            "TEREA Sienna",
+            "(No hay un tercer producto que se ajuste a la consulta, por lo que no se incluye en la lista)"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 45,
+      "consulta_texto": "Accesorios elegantes para ocasiones especiales.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.7967,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Estación de Carga para IQOS 3 DUO",
+            "Funda de Cuero para IQOS ILUMA",
+            "Contenedor de Viaje para TEREA"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS VEEV  Sistema de vapeo con cápsulas prellenadas, sabor intenso y experiencia sin humo, una excelente opción para aquellos que buscan algo nuevo y emocionante para ocasiones especiales."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.6934,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS ILUMA",
+            "IQOS ILUMA"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 46,
+      "consulta_texto": "Accesorios funcionales para uso diario.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.6309,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.9197,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS 3 DUO",
+            "IQOS Originals One  Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC.",
+            "IQOS ILUMA"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Contenedor de Viaje para TEREA",
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 47,
+      "consulta_texto": "Necesito una funda que sea confiable.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "Funda de Cuero para IQOS ILUMA",
+            "TEREA Sienna",
+            "TEREA Amber"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One"
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "(No se recomienda otro producto en este caso, ya que no hay opciones adicionales relevantes para la consulta del usuario)",
+            "(No se recomienda otro producto en este caso, ya que no hay opciones adicionales relevantes para la consulta del usuario)"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 48,
+      "consulta_texto": "Busco algo tradicionales para proteger el dispositivo.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "HEETS Turquoise Selection",
+            "TEREA Sienna",
+            "HEETS Sienna Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One  Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.0,
+          "HitRate@3": 0.0,
+          "ranking_top3": [
+            "IQOS ILUMA ONE",
+            "HEETS Turquoise Selection",
+            "HEETS Sienna Selection"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 49,
+      "consulta_texto": "Compara HEETS vs IQOS ILUMA PRIME.",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.905,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "TEREA Turquoise",
+            "HEETS Turquoise Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA PRIME",
+            "IQOS ILUMA",
+            "IQOS Originals One  Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "TEREA Turquoise",
+            "TEREA Sienna"
+          ]
+        }
+      }
+    },
+    {
+      "consulta_id": 50,
+      "consulta_texto": "¿Cuándo usar IQOS ILUMA y cuándo HEETS?",
+      "metricas": {
+        "SBERT": {
+          "NDCG@3": 0.905,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "TEREA Sienna",
+            "TEREA Amber",
+            "HEETS Amber Selection"
+          ]
+        },
+        "LLM_Puro": {
+          "NDCG@3": 1.0,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "IQOS ILUMA PRIME",
+            "IQOS Originals One  Diseño todoenuno, ideal para uso diario, con autonomía extendida y carga USBC."
+          ]
+        },
+        "Hibrido": {
+          "NDCG@3": 0.9778,
+          "HitRate@3": 1.0,
+          "ranking_top3": [
+            "IQOS ILUMA",
+            "TEREA Sienna",
+            "HEETS Amber Selection"
+          ]
+        }
+      }
+    }
+  ],
+  "promedios_finales": {
+    "SBERT": {
+      "NDCG@3_promedio": 0.586,
+      "HitRate@3_promedio": 0.72
+    },
+    "LLM_Puro": {
+      "NDCG@3_promedio": 0.582,
+      "HitRate@3_promedio": 0.66
+    },
+    "Hibrido": {
+      "NDCG@3_promedio": 0.7996,
+      "HitRate@3_promedio": 0.86
+    }
+  }
+}
