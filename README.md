@@ -31,7 +31,6 @@ pip install -r requirements.txt
 ### 3. **Variables de Entorno** (`.env`)
 ```bash
 GROQ_API_KEY=your_groq_api_key_here
-MODEL_NAME=llama3-8b-8192
 ```
 
 ---
