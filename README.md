@@ -58,16 +58,16 @@ python src/calcular_metricas_con_guardado.py
 
 ## 📋 CHECKLIST DE CONFIGURACIÓN
 
-- [ ] Crear estructura de carpetas
-- [ ] Configurar entorno virtual Python  
-- [ ] Instalar dependencias (`requirements.txt`)
-- [ ] Configurar API keys (Groq/OpenAI)
-- [ ] Preparar dataset de productos con descripciones curadas
-- [ ] Crear ground truth manual para evaluación
-- [ ] Ejecutar pipeline de generación de embeddings
-- [ ] Probar los tres sistemas de recomendación
-- [ ] Validar métricas de evaluación
-- [ ] Generar visualizaciones iniciales
+- Crear estructura de carpetas
+- Configurar entorno virtual Python  
+- Instalar dependencias (`requirements.txt`)
+- Configurar API keys (Groq/OpenAI)
+- Preparar dataset de productos con descripciones curadas
+- Crear ground truth manual para evaluación
+- Ejecutar pipeline de generación de embeddings
+- Probar los tres sistemas de recomendación
+- Validar métricas de evaluación
+- Generar visualizaciones iniciales
 
 ---
 
