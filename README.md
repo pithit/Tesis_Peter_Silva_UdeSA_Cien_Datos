@@ -2,11 +2,11 @@
 
 ```
 proyecto_zero_shot_recomendaciones/
-├── src/                          # 📄 files de python
-├── data/                         # 📊 Datos y embeddings
-├── eval/                         # 🎯 Evaluaciones y métricas
-├── graficos/                     # 📈 Visualizaciones generadas
-├── requirements.txt              # 📦 Dependencias de Python
+├── src/                          # files de python
+├── data/                         # Datos y embeddings
+├── eval/                         # Evaluaciones y métricas
+├── graficos/                     # Visualizaciones generadas
+├── requirements.txt              # Dependencias de Python
 ├── README.md                     
 └── .gitignore                    
 ```
