@@ -7,6 +7,7 @@ proyecto_zero_shot_recomendaciones/
 ├── eval/                         # Evaluaciones y métricas
 ├── graficos/                     # Visualizaciones generadas
 ├── requirements.txt              # Dependencias de Python
+├── .env                          # Env. file
 ├── README.md                     
 └── .gitignore                    
 ```
