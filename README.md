@@ -61,7 +61,7 @@ python src/calcular_metricas_con_guardado.py
 - Crear estructura de carpetas
 - Configurar entorno virtual Python  
 - Instalar dependencias (`requirements.txt`)
-- Configurar API keys (Groq/OpenAI)
+- Configurar API keys (Groq)
 - Preparar dataset de productos con descripciones curadas
 - Crear ground truth manual para evaluación
 - Ejecutar pipeline de generación de embeddings
